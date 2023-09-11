@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота 1 Третя сторінка</title>
+</head>
+<body>
+    <h1 align="center">Проєктування та розробка веб-застосунків</h1>
+    <h2 align="right">Лабораторна 1</h2>
+    <h2 align="right">Виконав студент групи АнД-31 Камиш Артем</h2>
+    <a href="firstpage.html">Головна сторінка</a>
+    <h3>Завдання</h3>
+    <p>Необхідно розробити форму для введення інформації про фільм до БД фільмів. Необхідно заповнити наступні данні:</p>
+    <ul>
+        <li>дані про фільм, включають назву фільму, жанр(вибирається зі списку), дату виходу на екрани, опис фільму, картинку з афішою;</li>
+        <li>дані про режисера, включають ПІБ, дату народження, біографію, посилання на веб-сайт.</li>
+    </ul>
+    <form action="", method="post">
+        <fieldset>
+            <legend>Фільм</legend>
+            <label>Назва фільму<input id="id_film" type="text"></label>
+            <label>Жанр фільму
+                <select>
+                    <option>Фільм жахів</option>
+                    <option>Комедія</option>
+                    <option>Тріллер</option>
+                    <option>Детектив</option>
+                    <option>Фантастика</option>
+                    <option>Наукова фантастика</option>
+                    <option>Драма</option>
+                    <option>Бойовик</option>
+                </select>
+            </label>
+            <label>Дата виходу<input id="fild_date" type="date"></label>
+            <label>Опис фільму<input id="film_disp" type="text"></label>
+            <label>Афіша<input id="film_pic" type="file"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Режисер</legend>
+            <label>ПІБ<input id="name" type="text"></label>
+            <label>День народження<input id="birthday" type="date"></label>
+            <label>Біографія<input id="bio" type="text"></label>
+            <label>Посилання<input id="url" type="url"></label>
+        </fieldset>
+        <button type="submit">Завантажити</button>
+    </form>
+</body>
+</html>
