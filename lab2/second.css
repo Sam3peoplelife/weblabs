@@ -1,0 +1,42 @@
+h1, h2{
+    text-align: center;
+}
+
+a{
+    color: aqua;
+}
+
+body{
+    background-color:#722F37;
+    color: yellow;
+}
+
+p {
+    color: yellow;
+    text-align: left;
+}
+
+.gvozdika {
+    float: left;
+    margin-right: 15px;
+    width: 25%;
+}
+
+.gvozd { 
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.konval{
+    float: right;
+    width: 15%;
+    height: 15%;
+}
+
+.konv{
+    font-weight: bold;
+}
+
+span{
+    color:aqua;
+}
