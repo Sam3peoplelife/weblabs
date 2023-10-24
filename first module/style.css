@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+}
+
+/* Header Styles */
+header {
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: lightgray;
+}
+
+/* Sidebar Styles */
+aside {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+aside li a:hover {
+    background-color: lightgray;
+}
+
+/* Main Content Styles */
+main {
+    flex-grow: 1;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block img {
+    max-width: 100%;
+}
+
+.review {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review img {
+    height: 50px;
+}
+
+.review-text {
+    margin-left: 10px;
+}
+
+.review-author {
+    margin-left: auto;
+}
+
+
+#additional-info {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: purple;
+    padding: 10px;
+}
