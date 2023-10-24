@@ -1,16 +1,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgray;
+    background-color: white;
 }
 
 .container {
     display: flex;
 }
 
-/* Header Styles */
 header {
-    background-color: purple;
+    background-color: blue;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -36,12 +35,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: lightgray;
+    background-color: darkblue;
 }
 
-/* Sidebar Styles */
 aside {
-    background-color: lightgray;
+    background-color: yellow;
     padding: 10px;
 }
 
@@ -59,7 +57,7 @@ aside li a {
 }
 
 aside li a:hover {
-    background-color: lightgray;
+    background-color: darkgoldenrod;
 }
 
 /* Main Content Styles */
@@ -94,12 +92,12 @@ main {
 
 
 #additional-info {
-    background-color: lightgray;
+    background-color: yellow;
     padding: 10px;
 }
 
 
 footer {
-    background-color: purple;
+    background-color: blue;
     padding: 10px;
 }
