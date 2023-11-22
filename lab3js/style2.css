@@ -1,0 +1,28 @@
+.navbar{
+    display: inline-flex;
+    list-style-type: none; 
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: color .2s;
+    margin-left:13px;
+}
+
+.navbar a:hover, .navbar a:active{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+@media (max-width: 800px){
+    .navbar{margin: 0px;
+            display: block;
+            text-align:center;}
+    .navbar li{
+        padding-top: 7px;}
+    .navbar li:after{
+        content: none;
+    }
+}

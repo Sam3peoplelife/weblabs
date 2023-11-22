@@ -1,0 +1,51 @@
+body{
+    background-color: purple;
+    margin:5%;
+    width:100%;
+    height: 100%;
+    color: black;
+}
+h1, h2, label, legend, div, table{
+    font-family: 'Playfair Display', serif;
+}
+.b-header{
+    text-align:center;
+    position:relative;
+}
+.b-task{
+    font-size:medium;
+    padding: 20px 20px 20px 20px;
+    margin-right: 10%;
+}
+table{
+    background-color: yellow;
+    color:black;
+    border-collapse:separate;
+ }
+table td{
+    border: 3px solid gray;
+    padding: 7px 17px;
+    opacity: 0.8;
+}
+
+table th{
+    background-color: blue;
+    border: 3px solid gray;
+}
+
+#verify{
+    background-color: white;
+    border:none;
+    color:green;
+    padding:15px 15px 15px 15px;
+    margin: 5px 10px;
+    text-align:center;
+    display:inline-block;
+    border-radius:8px;
+    font-size:16px;
+}
+#verify:hover{
+    background-color: gray;
+    color:darkgreen;
+    transition: all 0.2s ease-out;
+}
