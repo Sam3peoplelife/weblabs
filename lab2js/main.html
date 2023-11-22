@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="style1.css">
+  <link type="text/css" rel="stylesheet" href="style2.css">
+  <script src="main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Лабораторна робота 2</h1>
+    <h2>Камиш Артем</h2>
+  </header>
+  <ul class="navbar">
+    <li><a href="">Лабораторна робота №1</a></li>
+    <li><a href="">Лабораторна робота №2</a></li>
+    <li><a href="">Лабораторна робота №3</a></li>
+    <li><a href="">Лабораторна робота №4</a></li>
+    <li><a href="">Лабораторна робота №5</a></li>
+  </ul>
+  <h2>Завдання лабораторної</h2>
+  <div class="b-task">
+    <br>На Вашій сторінці є посилання. При наведенні на нього миші вивести додаткову інформацію про це посилання в діалоговому вікні.
+    <br>Ввести два числа (поля вводу) і слово „сума”, „різниця”, „добуток” чи „ділення” (з клавіатури). 
+    <br>Вивести результат виконання операції. Передбачити можливість неправильного вводу слова користувачем.
+    <br><a href="javascript:alert('Посилання на сторінку гугл');" onmouseover="showInfo()">Гугл</a>
+  </div>
+
+  <input type="number" name="number1" placeholder="Число 1">
+  <input type="number" name="number2" placeholder="Число 2">
+
+  <select name="operation">
+    <option value="sum">Сума</option>
+    <option value="difference">Різниця</option>
+    <option value="product">Добуток</option>
+    <option value="division">Ділення</option>
+  </select>
+
+  <button onclick="calculate()">Обчислити</button>
+
+  <p id="result"></p>
+</body>
+</html>
+
