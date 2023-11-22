@@ -1,4 +1,4 @@
-class Fridge{
+class Car{
     constructor(color, brand, model, price){
         this.color=color;
         this.brand=brand;
@@ -17,10 +17,10 @@ class Fridge{
 }
 
 let array = [
-    new Fridge('Red', 'VW', 'Tiguan'),
-    new Fridge('Black','Toyota', 'Corolla'),
-    new Fridge('Blue', 'Toyota', 'Prius'),
-    new Fridge('Yellow', 'Audi', 'Q7')
+    new Car('Red', 'VW', 'Tiguan'),
+    new Car('Black','Toyota', 'Corolla'),
+    new Car('Blue', 'Toyota', 'Prius'),
+    new Car('Yellow', 'Audi', 'Q7')
 ]
 
 function run(){
